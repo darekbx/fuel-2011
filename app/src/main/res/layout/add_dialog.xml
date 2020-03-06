@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:paddingTop="0dip"
+	android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:padding="4dip">
+	<EditText 
+		android:id="@+id/value" 
+		android:inputType="numberDecimal"
+		android:layout_height="wrap_content" 
+		android:layout_width="160dip" 
+		android:hint="@string/set_liters" />
+	<EditText 
+		android:id="@+id/cost" 
+		android:inputType="numberDecimal"
+		android:layout_height="wrap_content"
+		android:layout_width="160dip"
+		android:hint="@string/set_cost" />
+	<Button 
+		android:drawableLeft="@drawable/fuel95"
+		android:text="@string/button_save" 
+		android:id="@+id/button_ok" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+</LinearLayout>

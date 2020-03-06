@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel</string>
+    <string name="title_count">Fuel - Entries: %s</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_restore">Restore</string>
+    <string name="button_save">Add</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_close">Close</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="reset_title">Reset</string>
+    <string name="reset_all">Reset all data?</string>
+    <string name="set_liters">Liters:</string>
+    <string name="set_cost">Cost:</string>
+    <string name="default_cost"></string>
+	<string name="date_format" formatted="false">%02d/%02d/%s</string>
+	<string name="status_format" formatted="false">Total liters: %.2f, Total cost: %.2fzł</string>
+	<string name="liter_format" formatted="false">%sL</string>
+	<string name="cost_format" formatted="false">%szł</string>
+	<string name="distance_format" formatted="false">%skm</string>
+	<string name="price_format" formatted="false">%.2fzł</string>
+	<string name="diesel">Diesel</string>
+	<string name="fuel95">PB95</string>
+	<string name="fuel98">PB98</string>
+	<string name="lpg">LPG</string>
+	<string name="i_liters">Liters:</string>
+	<string name="i_cost">Cost:</string>
+	<string name="i_distance">Distance:</string>
+	<string name="i_liter_price">Liter price:</string>
+	<string name="a_liter_price">Average price:</string>
+	<string name="i_date">Date:</string>
+	<string name="i_type">Type:</string>
+	<string name="i_entries">Entries:</string>
+	<string name="information_message" formatted="false">%-13s %sL\n%-13s %szł\n%-13s %.2fzł\n%-13s %skm\n%-13s %s\n%-13s %s</string>
+	<string name="summary_message" formatted="false">Summary:\n\n%-14s %s\n%-14s %.2fL\n%-14s %szł\n%-14s %skm\n%-14s %.2fzł</string>
+	<string name="diesel_l_km">Diesel L\\km</string>
+	<string name="pb_l_km">PB L\\km</string>
+	<string name="fuel_type">Fuel type</string>
+	<string name="storage_liters">liters</string>
+	<string name="storage_liters_pb">pb_liters</string>
+	<string name="storage_type">type</string>
+	<string name="price_chart">Price chart</string>
+	<string name="liters_chart">Liters chart</string>
+	<string name="summary">Summary</string>
+	<string name="type">type</string>
+	<string name="price_format_only">%.2f</string>
+	<string name="price_unit">[zł]</string>
+	<string name="liter_unit">[L]</string>
+	<string name="delete_title">Delete</string>
+	<string name="delete_entry">Delete entry?</string>
+    <string name="dir">/fuel</string>
+    <string name="fuel_delimiter">###</string>
+    <string name="item_delimiter">%%</string>
+    <string name="backup_file">fuel.bpk</string>
+    <string name="backup_success">Backup created.</string>
+    <string name="restore_text">Restore</string>
+    <string name="restore_message">Restore all data?</string>
+    <string name="restore_success">Data restored.</string>
+    <string name="m" formatted="false">%02d/%s (%s)</string>
+    <string name="create_gesture">Perform the gesture of adding.</string>
+    <string name="add_gesture_name">add_gesture</string>
+    <string name="gestures_file">gestures.bin</string>
+    <string name="button_gesture_remove">Reset gesture</string>
+    <string name="gesture_reset_title">Reset</string>
+    <string name="gesture_reset_all">Reset gesture?</string>
+</resources>
